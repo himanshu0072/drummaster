@@ -1,0 +1,24 @@
+.key_groups{
+    margin: 10%;
+    background-color: green;
+}
+.buttons{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+.button{
+    background-color: red;
+    display: flex;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 3vw;
+}
+
+.button:hover{
+    scale: 1.2;
+    transition: 0.2s;
+}

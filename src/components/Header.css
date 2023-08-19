@@ -1,0 +1,13 @@
+body{
+  background-color: antiquewhite;
+  margin-top: 5%;
+}
+.main_heading{
+  font-size: 5vw;
+  text-align: center;
+  line-height: 0;
+}
+.main_quote{
+  line-height: 0;
+  text-align: center;
+}
