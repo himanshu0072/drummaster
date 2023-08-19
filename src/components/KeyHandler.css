@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto;
 }
-.button{
+.button button{
     background-color: red;
     display: flex;
     margin:10px;

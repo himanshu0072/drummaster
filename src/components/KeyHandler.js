@@ -1,36 +1,67 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./KeyHandler.css";
+import soundA from "./sounds/A.mp3";
+import soundS from "./sounds/S.mp3";
+// ... import other sound files
 
 function KeyHandler() {
+  const handleKeyPress = (event) => {
+    switch (event.key) {
+      case "a":
+        new Audio(soundA).play();
+        break;
+      case "A":
+        new Audio(soundA).play();
+        break;
+      case "S":
+        new Audio(soundS).play();
+        break;
+      case "s":
+        new Audio(soundS).play();
+        break;
+      // Add cases for other keys and corresponding sounds
+      default:
+        break;
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyPress);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, []);
+
   return (
     <div className="key_groups">
       <div className="buttons">
         <div className="button" id="button1">
-          <p>A</p>
+          <button>A</button>
         </div>
         <div className="button" id="button2">
-          <p>S</p>
+          <button>S</button>
         </div>
-        <div className="button" id="button3">
-          <p>D</p>
+        <div className="button" id="button2">
+          <button>D</button>
         </div>
-        <div className="button" id="button4">
-          <p>F</p>
+        <div className="button" id="button2">
+          <button>F</button>
         </div>
-        <div className="button" id="button5">
-          <p>G</p>
+        <div className="button" id="button2">
+          <button>G</button>
         </div>
-        <div className="button" id="button6">
-          <p>H</p>
+        <div className="button" id="button2">
+          <button>H</button>
         </div>
-        <div className="button" id="button7">
-          <p>J</p>
+        <div className="button" id="button2">
+          <button>J</button>
         </div>
-        <div className="button" id="button8">
-          <p>K</p>
+        <div className="button" id="button2">
+          <button>K</button>
         </div>
-        <div className="button" id="button9">
-          <p>L</p>
+        <div className="button" id="button2">
+          <button>L</button>
         </div>
       </div>
     </div>
