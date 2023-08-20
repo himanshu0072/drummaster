@@ -2,3 +2,36 @@
     margin-top: 8%;
     text-align: center;
 }
+
+.footer a{
+    text-decoration: none;
+}
+
+/* css for mobile devices */
+
+@media (max-width:480px) {
+    .footer{
+        margin-top: 70%;
+        text-align: center;
+        font-size: 12px;
+    } 
+    .footer a{
+        text-decoration: none;
+    }
+    
+    
+}
+
+/* css for tablets and potraits */
+
+@media (min-width: 481px) and (max-width: 1024px){
+    .footer{
+        margin-top: 30%;
+        text-align: center;
+        font-size: 1px;
+    } 
+    .footer a{
+        text-decoration: none;
+    }
+    
+}

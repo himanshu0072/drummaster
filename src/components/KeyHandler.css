@@ -51,4 +51,127 @@
     scale: 1.2;
     transition: 0.2s;
   }
-  
+
+/* css for mobile devices */
+@media (max-width: 480px) {
+    .key_groups{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        background-color: green;
+        padding: 2%;
+        border: 2px solid red;
+    }
+    .b1{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .b2{
+        border-bottom: 1px solid black;
+    }
+    .b3{
+        border-bottom: 1px solid black;
+    }
+    .buttons1{
+        margin-left: 1%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    }
+    .buttons2{
+        margin-left: 4%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    }
+    .buttons3{
+        margin-left: 6%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    .button button{
+        background-color: red;
+        display: flex;
+        margin:5px;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+        font-size: 3vw;
+    }
+    .button:hover{
+        scale: 1.2;
+        transition: 0.2s;
+    }
+    .pressed {
+        scale: 1.2;
+        transition: 0.2s;
+      }
+}
+
+/* css for tablets and potraits */
+
+@media (min-width: 481px) and (max-width: 1024px){
+    .key_groups{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        background-color: green;
+        padding: 2%;
+        border: 2px solid red;
+    }
+    .b1{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .b2{
+        border-bottom: 2px solid black;
+    }
+    .b3{
+        border-bottom: 2px solid black;
+    }
+    .buttons1{
+        margin-left: 1%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    }
+    .buttons2{
+        margin-left: 4%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    }
+    .buttons3{
+        margin-left: 6%;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    .button button{
+        background-color: red;
+        display: flex;
+        margin:10px;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 60%;
+        font-size: 3vw;
+    }
+    .button:hover{
+        scale: 1.2;
+        transition: 0.2s;
+    }
+    .pressed {
+        scale: 1.2;
+        transition: 0.2s;
+      }
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .button button{
+        background-color: red;
+        display: flex;
+        margin:3px;
+        justify-content: center;
+        align-items: center;
+        height: 15px;
+        width: 15px;
+        font-size: 3vw;
+    }
+}

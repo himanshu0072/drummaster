@@ -11,3 +11,42 @@ body{
   line-height: 0;
   text-align: center;
 }
+
+/* css for mobile devices */
+
+@media (max-width:480px) {
+  body{
+    background-color: antiquewhite;
+    margin-top: 5%;
+  }
+  .main_heading{
+    margin-top: 15%;
+    font-size: 8vw;
+    text-align: center;
+    line-height: 0;
+  }
+  .main_quote{
+    line-height: 0.5;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+}
+
+/* css for tablets and potraits devices*/
+
+@media (min-width: 481px) and (max-width: 1024px){
+  body{
+    background-color: antiquewhite;
+    margin-top: 10%;
+  }
+  .main_heading{
+    font-size: 8vw;
+    text-align: center;
+    line-height: 0;
+  }
+  .main_quote{
+    line-height: 0;
+    text-align: center;
+  }
+}
