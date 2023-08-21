@@ -3,6 +3,7 @@ Welcome to the DrumMaster GitHub repository! DrumMaster is a fun and interactive
 
 #### preview 
 <img src="/examples/drummaster.jpg" alt="Drum Mater" width="50%">
+
 ## Features
 <ul>
   <li>
