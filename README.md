@@ -15,6 +15,7 @@ Intuitive Interface: The user-friendly interface makes it easy for both beginner
 Responsive Design: DrumMaster is built with responsiveness in mind, ensuring that you can enjoy drumming on various devices, from desktops to tablets and smartphones.
 </li>
 </ul>
+
 ## Getting Started
 To try out DrumMaster, simply visit the following link: https://drummasterbyhimanshu.netlify.app/
 
