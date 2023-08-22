@@ -229,6 +229,7 @@ function KeyHandler() {
         <div className="buttons1">
           <div className="button" id="button1">
             <button
+              title="Drum"
               className={isKeyPressed("Q") ? "pressed" : ""}
               onClick={() => playSound(soundQ)}
             >
@@ -237,6 +238,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Guitar 1"
               className={isKeyPressed("W") ? "pressed" : ""}
               onClick={() => playSound(soundW)}
             >
@@ -245,6 +247,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Guitar 2"
               className={isKeyPressed("E") ? "pressed" : ""}
               onClick={() => playSound(soundE)}
             >
@@ -253,6 +256,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Guitar 3"
               className={isKeyPressed("R") ? "pressed" : ""}
               onClick={() => playSound(soundR)}
             >
@@ -261,6 +265,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Guitar 4"
               className={isKeyPressed("T") ? "pressed" : ""}
               onClick={() => playSound(soundT)}
             >
@@ -269,6 +274,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Sort drum effect"
               className={isKeyPressed("Y") ? "pressed" : ""}
               onClick={() => playSound(soundY)}
             >
@@ -277,6 +283,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Beep sound"
               className={isKeyPressed("U") ? "pressed" : ""}
               onClick={() => playSound(soundU)}
             >
@@ -285,6 +292,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Lose metal sound"
               className={isKeyPressed("I") ? "pressed" : ""}
               onClick={() => playSound(soundI)}
             >
@@ -293,6 +301,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="DJ base effect"
               className={isKeyPressed("O") ? "pressed" : ""}
               onClick={() => playSound(soundO)}
             >
@@ -301,6 +310,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Attention Sound effect"
               className={isKeyPressed("P") ? "pressed" : ""}
               onClick={() => playSound(soundP)}
             >
@@ -313,6 +323,7 @@ function KeyHandler() {
         <div className="buttons2">
           <div className="button" id="button1">
             <button
+              title="Guitar 5"
               className={isKeyPressed("A") ? "pressed" : ""}
               onClick={() => playSound(soundA)}
             >
@@ -321,6 +332,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guitar 6"
               className={isKeyPressed("S") ? "pressed" : ""}
               onClick={() => playSound(soundS)}
             >
@@ -329,6 +341,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guitar 7"
               className={isKeyPressed("D") ? "pressed" : ""}
               onClick={() => playSound(soundD)}
             >
@@ -337,6 +350,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guitar 8"
               className={isKeyPressed("F") ? "pressed" : ""}
               onClick={() => playSound(soundF)}
             >
@@ -345,6 +359,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guitar 9"
               className={isKeyPressed("G") ? "pressed" : ""}
               onClick={() => playSound(soundG)}
             >
@@ -353,6 +368,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guitar 10"
               className={isKeyPressed("H") ? "pressed" : ""}
               onClick={() => playSound(soundH)}
             >
@@ -361,6 +377,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guital 11"
               className={isKeyPressed("J") ? "pressed" : ""}
               onClick={() => playSound(soundJ)}
             >
@@ -369,6 +386,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guitar 12"
               className={isKeyPressed("K") ? "pressed" : ""}
               onClick={() => playSound(soundK)}
             >
@@ -377,6 +395,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button2">
             <button
+              title="Guitar 13"
               className={isKeyPressed("L") ? "pressed" : ""}
               onClick={() => playSound(soundL)}
             >
@@ -389,6 +408,7 @@ function KeyHandler() {
         <div className="buttons3">
           <div className="button" id="button1">
             <button
+              title="Attention 2 sound effect"
               className={isKeyPressed("Z") ? "pressed" : ""}
               onClick={() => playSound(soundZ)}
             >
@@ -397,6 +417,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Funny sound effect"
               className={isKeyPressed("X") ? "pressed" : ""}
               onClick={() => playSound(soundX)}
             >
@@ -405,6 +426,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Starting sound"
               className={isKeyPressed("C") ? "pressed" : ""}
               onClick={() => playSound(soundC)}
             >
@@ -413,6 +435,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Attention 3 sound effect"
               className={isKeyPressed("V") ? "pressed" : ""}
               onClick={() => playSound(soundV)}
             >
@@ -421,6 +444,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Beat 2"
               className={isKeyPressed("B") ? "pressed" : ""}
               onClick={() => playSound(soundB)}
             >
@@ -429,6 +453,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Prebuilt Beat 1"
               className={isKeyPressed("N") ? "pressed" : ""}
               onClick={() => playSound(soundN)}
             >
@@ -437,6 +462,7 @@ function KeyHandler() {
           </div>
           <div className="button" id="button1">
             <button
+              title="Prebuilt Beat 2"
               className={isKeyPressed("M") ? "pressed" : ""}
               onClick={() => playSound(soundM)}
             >
